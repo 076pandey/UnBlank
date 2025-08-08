@@ -14,7 +14,7 @@ Bcrypt(app)
 
 mongodb_client = MongoClient(os.getenv("MONGO_URI"))
 
-OPENROUTER_API_KEY = (os.getenv("OPENROUTER_API_KEY"))
+OPENROUTER_API_KEY = (os.getenv("SECRET_KEY"))
 REFERER = "http://localhost:5173"
 TITLE = "UnBlank AI Blog Generator"
 
